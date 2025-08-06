@@ -6,6 +6,7 @@ import pandas as pd
 # Define the base URL for your Node.js API
 #API_BASE_URL = "http://localhost:5002"
 from config import API_BASE_URL
+st.write("Current API URL:", API_BASE_URL)
 
 # --- API Interaction Functions ---
 
