@@ -5,7 +5,8 @@ import pandas as pd
 import re # Import the regular expression module
 
 # --- Configuration ---
-API_BASE_URL = "http://localhost:5002" # Your Node.js API URL
+#API_BASE_URL = "http://localhost:5002" # Your Node.js API URL
+from config import API_BASE_URL
 
 # --- API Interaction Functions ---
 

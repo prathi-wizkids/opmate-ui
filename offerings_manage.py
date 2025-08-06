@@ -4,7 +4,9 @@ import requests
 import pandas as pd
 
 # --- Configuration ---
-API_BASE_URL = "http://localhost:5002" # Corrected API Base URL
+#API_BASE_URL = "http://localhost:5002" 
+from config import API_BASE_URL
+
 ALL_GTYPES = ["G1", "G2", "G3", "G4"] # All possible offering types
 
 # --- Level Mapping (MUST be consistent with API) ---

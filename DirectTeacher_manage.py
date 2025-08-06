@@ -5,7 +5,9 @@ import requests
 import json
 import re # Import regex for parsing IDs from display strings
 
-API_BASE_URL = "http://localhost:5002"
+#API_BASE_URL = "http://localhost:5002"
+from config import API_BASE_URL
+
 
 def direct_api_call(method, endpoint, payload=None):
     url = f"{API_BASE_URL}{endpoint}"

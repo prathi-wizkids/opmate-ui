@@ -5,7 +5,8 @@ import json
 import re # Import regex for parsing IDs from display strings
 
 # --- Configuration ---
-API_BASE_URL = "http://localhost:5002" # Your Node.js API URL
+#API_BASE_URL = "http://localhost:5002" # Your Node.js API URL
+from config import API_BASE_URL
 
 # --- API Interaction Functions (re-used or adapted for this module) ---
 

@@ -6,7 +6,9 @@ import json
 import re # Import regex for parsing IDs from display strings
 
 # --- Configuration ---
-API_BASE_URL = "http://localhost:5002"
+#API_BASE_URL = "http://localhost:5002"
+from config import API_BASE_URL
+
 
 # --- API Interaction Functions ---
 
